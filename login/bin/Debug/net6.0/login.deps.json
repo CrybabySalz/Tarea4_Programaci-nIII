@@ -1,0 +1,110 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "login/1.0.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.19.0",
+          "Selenium.WebDriver.ChromeDriver": "123.0.6312.400-beta",
+          "System.Drawing.Common": "8.0.3"
+        },
+        "runtime": {
+          "login.dll": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.19.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/123.0.6312.400-beta": {},
+      "System.Drawing.Common/8.0.3": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.324.11603"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "login/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.19.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rguRY+Kbiow0s7RHtnHXnJdMgsmqAOOtv7ZGBtIQ1DbErkFtksrZHdUMcKyMK6VKNMmfsViqcCDGw4mPSPT70w==",
+      "path": "selenium.webdriver/4.19.0",
+      "hashPath": "selenium.webdriver.4.19.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/123.0.6312.400-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Da15DNUiSE7uPo3gOeDGJoQahUpwxKzCr/76DF0dPfpri+DcGKWPiz2elj9pM53LxqpyciR4ndZedu7fqBkJoA==",
+      "path": "selenium.webdriver.chromedriver/123.0.6312.400-beta",
+      "hashPath": "selenium.webdriver.chromedriver.123.0.6312.400-beta.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oDE9duAtHhxYJM2bsOlZCLBKdorU9DTV1tw7Mlc+VIT7HgwO5ddfOHk/An8C+fAS9oKdmn2PaIA5t1b484uz8g==",
+      "path": "system.drawing.common/8.0.3",
+      "hashPath": "system.drawing.common.8.0.3.nupkg.sha512"
+    }
+  }
+}
